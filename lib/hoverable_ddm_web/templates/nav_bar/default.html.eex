@@ -1,0 +1,5 @@
+<nav class="bg-indigo-600 text-gray-200 text-bold py-2 px-6 justify-between flex items-center min-w-full">
+  <div>Logo</div>
+  <%= Phoenix.View.render HoverableDdmWeb.HoverableMenuView, "default.html", %{items: HoverableDdm.Menu.get_menu() } %>
+  <div><%= fa_icon("fas fa-bars") %></div>
+</nav>

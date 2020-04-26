@@ -1,0 +1,1 @@
+<%= render_items( @items, "Menu", 1) %>

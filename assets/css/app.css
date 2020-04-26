@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+.menu-item {
+    @apply list-none cursor-pointer px-4 py-2;
+}
+.menu-item:hover {
+    @apply bg-indigo-400 text-gray-200;
+}
+
+.menu-item-container {
+    @apply absolute invisible bg-gray-300 text-gray-700;
+}
+
+.menu-title {
+    @apply py-2 px-4 cursor-pointer;
+}
+
+.menu-group {
+    @apply relative px-2 rounded-sm;
+}
+.menu-group:hover {
+    @apply bg-indigo-400 text-gray-200;
+}
+
+@tailwind utilities;
+
